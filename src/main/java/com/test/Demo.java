@@ -9,5 +9,6 @@ public class Demo
         LocalTime localTime = LocalTime.of(12,15);
         DateTimeFormatter f = DateTimeFormatter.ofPattern("HH:mm a");
         System.out.println(localTime.format(f));
+        System.out.println("merging");
     }
 }
